@@ -1,0 +1,71 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-image: url(bg.jpg);
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginPage{
+    width: 50%;
+    height: 70%;
+    background-color: #ffffff81;
+    border-radius: 30px;
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+    
+
+}
+
+.LoginDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+}
+.checkbox1{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+input[type="text"],input[type="password"]{
+    padding:20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    background:linear-gradient(yellow,violet);
+    cursor: pointer;
+}
+p{
+    text-decoration:underline;
+
+}
